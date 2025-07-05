@@ -37,7 +37,7 @@ st.title('Prediccion de Clusters predecir de forma automática el clúster al qu
 
 Edad = st.slider('Edad', min_value=0, max_value=111, value=20, step=1)
 Sexo = st.selectbox('Sexo', ['M', 'F'])
-Nivel_Estudios = ('Nivel_Estudios', ["'SIN NIVEL EDUCATIVO'","'TECNICA'","'SECUNDARIA'","'PRIMARIA'","'PROFESIONAL'","'ESPECIALIZACION'","'TECNOLOGICA'","'MAESTRIA'","'OTRO'","'DOCTORADO/POSTDOCTORADO'"])
+Nivel_Estudios =('Nivel_Estudios', ["''SIN NIVEL EDUCATIVO''","'TECNICA'","'SECUNDARIA'","'PRIMARIA'","'PROFESIONAL'","'ESPECIALIZACION'","'TECNOLOGICA'","'MAESTRIA'","'OTRO'","'DOCTORADO/POSTDOCTORADO'"])
 Regimen = st.selectbox('Regimen', ["'CONTRIBUTIVO'","'SUBSIDIADO'"])
 Regional = st.selectbox('Regional', ["'REGIONAL ANTIOQUIA'","'REGIONAL EJE CAFETERO'","'REGIONAL NORTE'","'REGIONAL CENTRO'","'REGIONAL OCCIDENTE'"])
 Estado_Civil = st.selectbox('Estado_Civil', ["'SOLTERO/A'","'CASADO/A'","'DIVORCIADO/A'","'VIUDO/A'"])
